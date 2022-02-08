@@ -1,4 +1,4 @@
-# SushiSwap SDK Monorepo
+# Ubuntu SDK Monorepo
 
 ## Prerequisites
 
