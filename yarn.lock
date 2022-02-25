@@ -12162,7 +12162,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ubuntucoresdk@1.0.0-canary.65, ubuntucoresdk@workspace:packages/core-sdk":
+"ubuntucoresdk@npm:1.0.0-canary.65":
+  version: 1.0.0-canary.65
+  resolution: "ubuntucoresdk@npm:1.0.0-canary.65"
+  dependencies:
+    "@ethersproject/address": ^5.4.0
+    "@ethersproject/bignumber": ^5.4.0
+    "@ethersproject/providers": ^5.4.0
+    "@ethersproject/solidity": ^5.4.0
+    big.js: ^6.1.1
+    decimal.js-light: ^2.5.0
+    jsbi: ^4.1.0
+    tiny-invariant: ^1.1.0
+    tiny-warning: ^1.0.0
+    toformat: ^2.0.0
+  checksum: 5998d3b5e02d4d5aacad6f689c986ab0b37594fc6fee0a8896c473ea0f9da9e542c368f0a5f606a84fc27e901ec8e6d5afe52cf24d51cb4cc14916843635d6f7
+  languageName: node
+  linkType: hard
+
+"ubuntucoresdk@workspace:packages/core-sdk":
   version: 0.0.0-use.local
   resolution: "ubuntucoresdk@workspace:packages/core-sdk"
   dependencies:
