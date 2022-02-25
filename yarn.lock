@@ -3078,31 +3078,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sushiswap/bentobox-sdk@1.0.0-canary.42, @sushiswap/bentobox-sdk@workspace:packages/bentobox-sdk":
+"@sushiswap/bentobox-sdk@1.0.0-canary.50, @sushiswap/bentobox-sdk@workspace:packages/bentobox-sdk":
   version: 0.0.0-use.local
   resolution: "@sushiswap/bentobox-sdk@workspace:packages/bentobox-sdk"
   dependencies:
-    "@sushiswap/core-sdk": 1.0.0-canary.57
     tsdx: ^0.14.1
-  languageName: unknown
-  linkType: soft
-
-"@sushiswap/core-sdk@1.0.0-canary.57, @sushiswap/core-sdk@workspace:packages/core-sdk":
-  version: 0.0.0-use.local
-  resolution: "@sushiswap/core-sdk@workspace:packages/core-sdk"
-  dependencies:
-    "@ethersproject/address": ^5.4.0
-    "@ethersproject/bignumber": ^5.4.0
-    "@ethersproject/providers": ^5.4.0
-    "@ethersproject/solidity": ^5.4.0
-    "@types/big.js": ^6.1.0
-    big.js: ^6.1.1
-    decimal.js-light: ^2.5.0
-    jsbi: ^4.1.0
-    tiny-invariant: ^1.1.0
-    tiny-warning: ^1.0.0
-    toformat: ^2.0.0
-    tsdx: ^0.14.1
+    ubuntucoresdk: 1.0.0-canary.65
   languageName: unknown
   linkType: soft
 
@@ -3112,7 +3093,7 @@ __metadata:
   dependencies:
     "@ethersproject/abi": ^5.4.0
     "@ethersproject/contracts": ^5.4.0
-    "@sushiswap/bentobox-sdk": 1.0.0-canary.42
+    "@sushiswap/bentobox-sdk": 1.0.0-canary.50
     tsdx: ^0.14.1
   languageName: unknown
   linkType: soft
@@ -3128,10 +3109,10 @@ __metadata:
     "@ethersproject/experimental": ^5.4.0
     "@ethersproject/signing-key": ^5.4.0
     "@ethersproject/transactions": ^5.4.0
-    "@sushiswap/core-sdk": 1.0.0-canary.57
     eip-712: ^0.4.0
     isomorphic-unfetch: ^3.0.0
     tsdx: ^0.14.1
+    ubuntucoresdk: 1.0.0-canary.65
   languageName: unknown
   linkType: soft
 
@@ -3152,15 +3133,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sushiswap/tines@1.0.0-canary.40, @sushiswap/tines@workspace:packages/tines":
+"@sushiswap/tines@1.0.0-canary.48, @sushiswap/tines@workspace:packages/tines":
   version: 0.0.0-use.local
   resolution: "@sushiswap/tines@workspace:packages/tines"
   dependencies:
     "@ethersproject/bignumber": ^5.4.0
-    "@sushiswap/core-sdk": 1.0.0-canary.57
     "@types/seedrandom": ^3.0.1
     seedrandom: ^3.0.5
     tsdx: ^0.14.1
+    ubuntucoresdk: 1.0.0-canary.65
   languageName: unknown
   linkType: soft
 
@@ -3170,11 +3151,11 @@ __metadata:
   dependencies:
     "@ethersproject/abi": ^5.4.0
     "@ethersproject/bignumber": ^5.4.0
-    "@sushiswap/core-sdk": 1.0.0-canary.57
-    "@sushiswap/tines": 1.0.0-canary.40
+    "@sushiswap/tines": 1.0.0-canary.48
     "@sushiswap/trident": 1.0.0-canary.27
     tiny-invariant: ^1.1.0
     tsdx: ^0.14.1
+    ubuntucoresdk: 1.0.0-canary.65
   languageName: unknown
   linkType: soft
 
@@ -12180,6 +12161,25 @@ __metadata:
   checksum: dc7141ab555b23a8650a6787f98845fc11692063d02b75ff49433091b3af2fe3d773650dea18389d7c21f47d620fb3b110ea363dab4ab039417a6ccbbaf96fc2
   languageName: node
   linkType: hard
+
+"ubuntucoresdk@1.0.0-canary.65, ubuntucoresdk@workspace:packages/core-sdk":
+  version: 0.0.0-use.local
+  resolution: "ubuntucoresdk@workspace:packages/core-sdk"
+  dependencies:
+    "@ethersproject/address": ^5.4.0
+    "@ethersproject/bignumber": ^5.4.0
+    "@ethersproject/providers": ^5.4.0
+    "@ethersproject/solidity": ^5.4.0
+    "@types/big.js": ^6.1.0
+    big.js: ^6.1.1
+    decimal.js-light: ^2.5.0
+    jsbi: ^4.1.0
+    tiny-invariant: ^1.1.0
+    tiny-warning: ^1.0.0
+    toformat: ^2.0.0
+    tsdx: ^0.14.1
+  languageName: unknown
+  linkType: soft
 
 "uglify-js@npm:^3.1.4":
   version: 3.14.5

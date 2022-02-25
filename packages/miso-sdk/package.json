@@ -9,7 +9,7 @@
   ],
   "module": "dist/miso-sdk.esm.js",
   "repository": {
-    "url": "sushiswap/sdk",
+    "url": "ubuntu/sdk",
     "directory": "packages/miso-sdk"
   },
   "publishConfig": {

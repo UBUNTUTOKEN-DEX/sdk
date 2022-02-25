@@ -9,7 +9,7 @@
   ],
   "module": "dist/kashi-sdk.esm.js",
   "repository": {
-    "url": "sushiswap/sdk",
+    "url": "ubuntu/sdk",
     "directory": "packages/kashi-sdk"
   },
   "publishConfig": {
